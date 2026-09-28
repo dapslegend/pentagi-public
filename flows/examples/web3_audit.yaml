@@ -1,0 +1,12 @@
+name: web3_audit_demo
+track: web3
+provider: stub
+target:
+  address: "0x0000000000000000000000000000000000000001"
+  chain: "1"
+tools:
+  - web3.get_code
+  - web3.get_storage
+  - web3.checklist
+aggressive: false
+broadcast: false
